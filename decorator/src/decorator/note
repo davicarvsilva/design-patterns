@@ -1,0 +1,8 @@
+First of all we have the Beverage class, that is a interface that all components
+have to implement. 
+
+Then we have the decorators. Each decorator has to implement Beverage too, but they 
+also have to have a instance of some class that implements Beverage class.
+
+Then all concrete decorators, in this case Coffee and Cinnamon, have to extend 
+from the Decorator class.  
